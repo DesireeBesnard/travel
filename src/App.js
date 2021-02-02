@@ -1,7 +1,9 @@
-import './App.css';
+import React from 'react';
 // React-router-dom comprend l'API de routage requise pour les navigateurs
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Router path="/" exact />
+          <Route path="/" exact component={Home}/>
         </Switch>
       </Router>
 
