@@ -1,2 +1,7 @@
 {
+   "emmet.showSuggestionsAsSnippets": true,
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "javascript": "html",
+   }
 }
