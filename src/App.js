@@ -1,7 +1,12 @@
-import './App.css';
+import React from 'react';
 // React-router-dom comprend l'API de routage requise pour les navigateurs
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './App.css';
 import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import Services from './components/pages/Services';
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
 
 function App() {
   return (
@@ -9,7 +14,10 @@ function App() {
       <Router>
         <Navbar/>
         <Switch>
-          <Router path="/" exact />
+          <Route path="/" exact component={Home}/>
+          <Route path="/services" component={Services}/>
+          <Route path="/products" component={Products}/>
+          <Route path="/sign-up" component={SignUp}/>
         </Switch>
       </Router>
 
