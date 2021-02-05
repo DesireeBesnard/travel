@@ -12,8 +12,20 @@
 
 .btn--primary {
     background-color: var(--primary);
-    color: #242424;
+    color: #e99a32;
     border: 1px solid var(--primary);
+}
+
+.btn--sand {
+    background-color: #fff;
+    color: #e99a32;
+    border: 1px solid #e99a32;
+}
+
+.btn--sand:hover {
+    background-color: #e99a32;
+    color: #fff;
+    transition: all 0.3s ease-out;
 }
 
 .btn--outline {
@@ -22,6 +34,11 @@
     padding: 8px 20px;
     border: 1px solid var(--primary);
     transition: all 0.3s ease-out;
+}
+
+.btn--primary:hover, .btn--outline:hover {
+    background-color: #fff;
+    color: #279bab;
 }
 
 .btn--medium {
@@ -33,9 +50,3 @@
     padding: 8px 26px;
     font-size: 20px;
 }
-
-.btn--medium:hover, .btn--large:hover {
-    background:#fff;
-    color: #242424;
-    transition: all 0.3s ease-out;
-} 

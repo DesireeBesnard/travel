@@ -5,39 +5,39 @@ import "./Cards.css";
 function Cards() {
     return (
         <div className="cards">
-            <h1>Check out these EPIC Destination!</h1>
-            <div class="cards__container">
-                <div class="cards__wrapper">
-                    <ul class="cards__items">
+            <h1>Découvrez nos plus belles destinations!</h1>
+            <div className="cards__container">
+                <div className="cards__wrapper">
+                    <ul className="cards__items">
                         <CardItem 
                             src="../img/img-9.jpg" 
-                            text="Explore the hidden waterfall deep inside the Amazon Jungle"  
+                            text="Explorez la cascade cachée au fond de la jungle amazonienne"  
                             label="Adventure" 
                             path="/services"
                         />
                         <CardItem 
                             src="../img/img-2.jpg" 
-                            text="Travel through the Islands of Bali in a Private Cruise"  
+                            text="Voyagez à travers les îles de Bali lors d'une croisière privée"  
                             label="Luxury" 
                             path="/services"
                         />
                     </ul>
-                    <ul class="cards__items">
+                    <ul className="cards__items">
                         <CardItem 
                             src="../img/img-3.jpg" 
-                            text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"  
+                            text="Mettez les voiles dans l'océan Atlantique pour visiter des eaux inexplorées"  
                             label="Mystery" 
                             path="/services"
                         />
                         <CardItem 
                             src="../img/img-4.jpg" 
-                            text="Experience Football on Top of the Himalayan Moutains"  
+                            text="Vivez le football au sommet des montagnes himalayennes"  
                             label="Adventure" 
                             path="/services"
                         />
                         <CardItem 
                             src="../img/img-8.jpg" 
-                            text="Ride through the Sahara Desert on a guided tour"  
+                            text="Traversez le désert du Sahara lors d'une visite guidée"  
                             label="Adventure" 
                             path="/services"
                         />
