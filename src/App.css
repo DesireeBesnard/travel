@@ -17,12 +17,7 @@
   }
   
   .agency {
-    background-image: url('./img/agency.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+    
   }
   
   .products {
@@ -41,4 +36,25 @@
     background-repeat: no-repeat;
     color: #fff;
     font-size: 100pxg
+  }
+
+  .banner {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .banner--agency {
+    background-image: url('./img/agency.jpg');
+    
+  }
+
+  .banner--product {
+    background-image: url('./img/img-4.jpg')
   }

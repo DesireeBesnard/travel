@@ -1,7 +1,25 @@
 import React from 'react';
 import '../../App.css';
+import Banner from "../Banner";
+import Footer from "../Footer";
 
 
-export default function Products() {
-    return <h1 className="products">PRODUCTS</h1>
+function Product () {
+    return (
+        <>
+            <Banner 
+                className="banner" 
+                bannerBg="banner--product"
+                children="PRODUITS"
+            />
+            <Footer />
+        </>
+    )
+
 }
+
+export default Product; 
+
+// export default function Services() {
+//     return <h1 className="agency">NOTRE AGENCE</h1>
+// }

@@ -1,11 +1,19 @@
 import React from 'react';
 import '../../App.css';
+import Banner from "../Banner";
 import Footer from "../Footer";
 
 
 function Agency () {
     return (
-        <Footer />
+        <>
+            <Banner 
+                className="banner" 
+                bannerBg="banner--agency"
+                children="NOTRE AGENCE"
+            />
+            <Footer />
+        </>
     )
 
 }
