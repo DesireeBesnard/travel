@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Banner from "../Banner";
+import Presentation from "../Presentation";
 import Footer from "../Footer";
 
 
@@ -12,6 +13,7 @@ function Agency () {
                 bannerBg="banner--agency"
                 children="NOTRE AGENCE"
             />
+            <Presentation />
             <Footer />
         </>
     )
