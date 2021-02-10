@@ -1,0 +1,21 @@
+.presentation {
+    width: 100%;
+    max-width: 1000px;
+    padding: 70px 70px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.presentation-item {
+    width: 50%;
+    font-size: 18px;
+}
+
+.presentation-img p {
+    padding-bottom: 10px;
+}
+
+.presentation-img {
+    width: 400px;
+}

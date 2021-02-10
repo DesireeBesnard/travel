@@ -1,0 +1,37 @@
+.team--container {
+    display: flex;
+}
+
+.team--column {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 20px 1fr 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.team--column-left {
+    padding: 0 10px 0 0;
+}
+
+.team--column-right {
+    padding: 0 0 0 10px;
+}
+
+.membercard-left {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    display: grid;
+    grid-template-columns: 9fr 20px 2fr;
+    background-color: red;
+}
+
+.membercard-right {
+    grid-column: 2 / 6;
+    grid-row: 3 / 6;
+    background-color: yellow;
+}
+
+.name {
+    font-weight: bold;
+}
+

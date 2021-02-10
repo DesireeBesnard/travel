@@ -1,0 +1,15 @@
+.member-photo {
+    grid-column: 1 / 5;
+}
+
+.member-photo img {
+    max-height: 250px;
+}
+
+.member-gap {
+    grid-column: 5 / 6;
+}
+
+.member-name{
+    grid-column: 5 / 8;
+}
