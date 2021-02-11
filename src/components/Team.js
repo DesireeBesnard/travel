@@ -22,14 +22,16 @@ function Team() {
                         <p>blablablabla</p>
                     </div>
                 </div>
-                {/* <div className="team--column team--column-right">
-                    <div className="member-card member-up">
-                        <p>blabla</p>
-                    </div>
-                    <div className="member-card member-down">
+                <div className="team--column team--column-right">
+                    <MembercardLeft 
+                        src="../img/member-2.jpg"
+                        name="Johnson Doe"
+                        job="Founder and CEO"
+                    />
+                    <div className="membercard membercard-right">
                         <p>blablablabla</p>
                     </div>
-                </div> */}
+                </div>
             </div>
             
         </div>

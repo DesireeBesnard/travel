@@ -1,11 +1,13 @@
 .team--container {
     display: flex;
+    margin: auto;
+    max-width: 80%;
 }
 
 .team--column {
     width: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr 20px 1fr 1fr;
+    grid-template-columns: 2fr 20px 2fr;
     grid-template-rows: repeat(5, 1fr);
 }
 
@@ -18,17 +20,26 @@
 }
 
 .membercard-left {
-    grid-column: 1 / 5;
+    grid-column: 1 / 2;
     grid-row: 1 / 4;
-    display: grid;
-    grid-template-columns: 9fr 20px 2fr;
     background-color: red;
+    position: relative;
+}
+
+.member-left-name {
+    position: absolute;
+    transform: rotate(-90deg);
+    padding-top: 20px;
+    background-color: red;
+    top: 30px;
+    right: -90px;
 }
 
 .membercard-right {
-    grid-column: 2 / 6;
+    grid-column: 3 / 4;
     grid-row: 3 / 6;
     background-color: yellow;
+    position: relative;
 }
 
 .name {
