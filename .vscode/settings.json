@@ -1,10 +1,25 @@
 {
-   "emmet.showSuggestionsAsSnippets": true,
-    "emmet.includeLanguages": {
-      "javascript": "javascriptreact",
-      "javascript": "html",
-   },
+    "files.autoSave": "afterDelay",
+    "remote.SSH.remotePlatform": {
+        "163.172.152.55": "linux",
+        "51.15.188.175": "linux"
+    },
+    "window.zoomLevel": -2,
+    "workbench.settings.useSplitJSON": true,
+    "remote.WSL.fileWatcher.polling": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "editor.autoClosingBrackets": "always",
     "emmet.syntaxProfiles": {
-        "javascript": "jsx"   
-    } 
+        "javascript": "jsx",
+        "javascript": "html"   
+    },
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+    "javascript": "javascript",
+    "vue-html": "html",
+    "php": "html"
+    }
 }
