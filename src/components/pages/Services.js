@@ -1,7 +1,8 @@
 import React from 'react';
 import '../../App.css';
 import Banner from "../Banner";
-import Maps from "../Maps"
+import Maps from "../Maps";
+import Steps from '../Steps';
 import Team from "../Team";
 import Footer from "../Footer";
 
@@ -12,7 +13,7 @@ function Agency () {
             <Banner 
                 className="banner" 
                 bannerBg="banner--agency"
-                children="NOTRE AGENCE"
+                children="Notre agence"
             />
 
             <div className="container agency">
@@ -34,6 +35,16 @@ function Agency () {
                     <Maps />
                 </div>
                 
+            </div>
+
+            <div className="container">
+                <h2 className="step--title">Concevez votre voyage sur-mesure</h2>
+                <div className="steps-container">
+                    <Steps stepNumber="1" stepSubTitle="Récoltons votre brief" stepText="stepText1" />
+                    <Steps stepNumber="2" stepSubTitle="Discutons du projet" stepText="stepText2" />
+                    <Steps stepNumber="3" stepSubTitle="Recevez votre roadbook" stepText="stepText3" />
+                    <Steps stepNumber="4" stepSubTitle="Faites vos valises" stepText="stepText4" />
+                </div>
             </div>
 
             <Team />

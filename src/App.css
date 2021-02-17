@@ -75,7 +75,7 @@
 
   .agency-adress {
     grid-column: 1 / 2;
-    padding: 0 50px;
+    padding: 0 70px 0 0px;
   }
 
   .agency-adress h2 {
@@ -84,6 +84,7 @@
 
   .agency-adress p {
     margin-bottom: 20px;
+    color: #6B6B6B;
   }
 
   .agency-map {
@@ -94,28 +95,19 @@
     position: relative !important;
   }
 
-  .takeappointment {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 40px;
+  .steps-container {
+    display: grid;
+    grid-template-columns: 30px 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
   }
 
-  .takeappointment div {
-    width: 28%;
-    height: 80px;
-    background-color: #E99A32;
-    margin: 0 10px 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .steps-container .step:first-child {
+    grid-column: 2 / 3;
   }
 
-  .takeappointment div:hover {
-    background-color: rgba(233, 154, 50, 0.5);
-    transition: background-color 150ms linear;
-  }
+.step--title {
+  margin-bottom: 70px;
+}
 
-  .takeappointment a {
-    text-decoration: none;
-    color: #fff;
-  }
+
+

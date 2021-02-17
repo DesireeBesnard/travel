@@ -9,6 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
 }
 
 .team-title {
@@ -103,5 +104,12 @@
 
 .job {
     font-size: 11px;
+}
+
+.takeappointment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 130px;
 }
 

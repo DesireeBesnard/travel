@@ -41,6 +41,17 @@
     color: #279bab;
 }
 
+.btn--appointment {
+    background-color: #E99A32;
+    color: #F8F8F8;
+    margin-bottom: 15px;
+}
+
+.btn--appointment:hover {
+    background-color: rgba(233, 154, 50, 0.5);
+    transition: background-color 150ms linear;
+  }
+
 .btn--medium {
     padding: 8px 20px;
     font-size: 20px;
@@ -49,4 +60,9 @@
 .btn--large {
     padding: 8px 26px;
     font-size: 20px;
+}
+
+.btn-extralarge {
+    width: 250px;
+    height: 50px;
 }

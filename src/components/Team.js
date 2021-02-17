@@ -1,7 +1,6 @@
 import React from 'react';
 import "./Team.css";
 import Membercard from './Membercard';
-import { Button } from './Button';
 
 
 
@@ -47,11 +46,6 @@ function Team() {
 
             <div className="team-text">
                 <h2 className="team-title">Une équipe à votre écoute</h2>
-                <Button buttonStyle='btn--sand'>Demander un devis</Button>
-                <Button buttonStyle='btn--sand'>Prendre rendez-vous</Button>
-                <div className="takeappointment">
-                    
-                </div>
             </div>
         </div>
 
