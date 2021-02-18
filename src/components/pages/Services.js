@@ -40,10 +40,26 @@ function Agency () {
             <div className="container">
                 <h2 className="step--title">Concevez votre voyage sur-mesure</h2>
                 <div className="steps-container">
-                    <Steps stepNumber="1" stepSubTitle="Récoltons votre brief" stepText="stepText1" />
-                    <Steps stepNumber="2" stepSubTitle="Discutons du projet" stepText="stepText2" />
-                    <Steps stepNumber="3" stepSubTitle="Recevez votre roadbook" stepText="stepText3" />
-                    <Steps stepNumber="4" stepSubTitle="Faites vos valises" stepText="stepText4" />
+                    <Steps 
+                        stepNumber="1"
+                        stepSubTitle="Récoltons votre brief" 
+                        stepText="Grâce à un questionnaire approfondi, nous apprendrons à mieux vous connaître. Nous pourrons ainsi concevoir le voyage français parfait, fait pour vous."
+                    />
+                    <Steps 
+                        stepNumber="2" 
+                        stepSubTitle="Discutons du projet" 
+                        stepText="Nous adapterons votre itinéraire en fonction de vos commentaires, jusqu'à ce qu'il vous satisfasse. Chaque partie du voyage peut être personnalisée."
+                    />
+                    <Steps 
+                        stepNumber="3" 
+                        stepSubTitle="Recevez votre guide" 
+                        stepText="Nous vous ferons parvenir différentes suggestions, devis et itinéraires en fonction de vos intérêts et de vos attentes."
+                    />
+                    <Steps 
+                        stepNumber="4" 
+                        stepSubTitle="Faites vos valises" 
+                        stepText="Nous sommes prêts à vous envoyer votre road-book pour un voyage sans encombre et nous avons hâte de vous accueillir en France."
+                    />
                 </div>
             </div>
 
