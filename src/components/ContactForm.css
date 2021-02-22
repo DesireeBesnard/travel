@@ -1,0 +1,41 @@
+.contact-container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.contact-pic {
+    grid-column: 1 / 2;
+}
+
+.contact-pic img {
+    max-width: 100%;
+}
+
+.contacSection {
+    grid-column: 2 / 4;
+    padding: 50px 20px;
+}
+
+.contactForm form{
+    display: grid;
+    grid-column: 1fr 1fr;
+}
+
+.radio-input label {
+    display: inline-block;
+    width: 200px;
+    padding: 10px;
+    border: solid 2px #ccc;
+    transition: all 0.3s;
+  }
+  
+  .radio-input input[type="radio"] {
+    display: none;
+  }
+
+  .radio-input input[type="radio"]:checked + label {
+    border: solid 2px green;
+  }
