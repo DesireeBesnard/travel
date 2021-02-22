@@ -4,6 +4,7 @@ import Banner from "../Banner";
 import Maps from "../Maps";
 import Steps from '../Steps';
 import Team from "../Team";
+import ContactForm from "../ContactForm.js";
 import Footer from "../Footer";
 
 
@@ -44,26 +45,32 @@ function Agency () {
                         stepNumber="1"
                         stepSubTitle="Récoltons votre brief" 
                         stepText="Grâce à un questionnaire approfondi, nous apprendrons à mieux vous connaître. Nous pourrons ainsi concevoir le voyage français parfait, fait pour vous."
+                        stepIcon="fas fa-question"
                     />
                     <Steps 
                         stepNumber="2" 
                         stepSubTitle="Discutons du projet" 
                         stepText="Nous adapterons votre itinéraire en fonction de vos commentaires, jusqu'à ce qu'il vous satisfasse. Chaque partie du voyage peut être personnalisée."
+                        stepIcon="fas fa-comments"
                     />
                     <Steps 
                         stepNumber="3" 
                         stepSubTitle="Recevez votre guide" 
                         stepText="Nous vous ferons parvenir différentes suggestions, devis et itinéraires en fonction de vos intérêts et de vos attentes."
+                        stepIcon="fas fa-map"
                     />
                     <Steps 
                         stepNumber="4" 
                         stepSubTitle="Faites vos valises" 
                         stepText="Nous sommes prêts à vous envoyer votre road-book pour un voyage sans encombre et nous avons hâte de vous accueillir en France."
+                        stepIcon="fas fa-suitcase-rolling"
                     />
                 </div>
             </div>
 
             <Team />
+
+            <ContactForm />
 
             <Footer />
         </>

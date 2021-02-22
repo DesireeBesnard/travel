@@ -4,7 +4,7 @@
         "163.172.152.55": "linux",
         "51.15.188.175": "linux"
     },
-    "window.zoomLevel": -2,
+    "window.zoomLevel": -1,
     "workbench.settings.useSplitJSON": true,
     "remote.WSL.fileWatcher.polling": true,
     "emmet.showSuggestionsAsSnippets": true,
