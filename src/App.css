@@ -2,11 +2,26 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .text-align-center {
+    text-align: center;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    padding: 50px 20px;
+  }
+
+  .subcontainer {
+    width: 80%;
+    margin: auto;
   }
   
   .home,
-  .services,
   .products,
   .sign-up {
     display: flex;
@@ -14,15 +29,6 @@
     align-items: center;
     justify-content: center;
     font-size: 3rem;
-  }
-  
-  .services {
-    background-image: url('./img/img-2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
   }
   
   .products {
@@ -42,3 +48,71 @@
     color: #fff;
     font-size: 100pxg
   }
+
+  .banner {
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+  }
+
+  .banner--agency {
+    background-image: url('./img/agency.jpg');
+    
+  }
+
+  .banner--product {
+    background-image: url('./img/img-4.jpg')
+  }
+
+  /* page services */
+
+  .agency {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .agency-adress {
+    grid-column: 1 / 2;
+    padding: 0 70px 0 0px;
+  }
+
+  .agency-adress h2 {
+    margin-bottom: 20px;
+  }
+
+  .agency-adress p {
+    margin-bottom: 20px;
+    color: #6B6B6B;
+  }
+
+  .agency-map {
+    grid-column: 2 / 3;
+  }
+
+  .agency div:first-child {
+    position: relative !important;
+  }
+
+  .steps-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+  }
+
+  .steps-container .step:first-child {
+    grid-column: 1 / 2;
+  }
+
+.step--title {
+  margin-bottom: 85px;
+  font-size: 40px;
+}
+
+
+
