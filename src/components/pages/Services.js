@@ -4,7 +4,7 @@ import Banner from "../Banner";
 import Maps from "../Maps";
 import Steps from '../Steps';
 import Team from "../Team";
-import ContactForm from "../ContactForm.js";
+import ContactForm from "../ContactForm/ContactForm.js";
 import Footer from "../Footer";
 
 
